@@ -11,9 +11,17 @@ body {
 .container {
     padding:0 40px;
 }
+.menu-item{
+    position: relative;
+    border: 2px solid #141414;
+    background-color: #999999;
+    margin-bottom: 20px;
+} 
 .caption{
+    position: absolute;
+    top: 0;
+    right: 0;
     border: 2px solid black;
-    float: right;
     margin: 0;
     width: 30%;
     border-right: 0;
@@ -29,14 +37,8 @@ body {
 }
 .caption-3 {
     background-color: #e5d198;
-}
-.menu-item{
-    border: 2px solid #141414;
-    background-color: #999999;
-    margin-bottom: 20px;
-}   
+}  
 .description{
-    clear: right;
     margin: 34px 10px 4px 10px;
 }
 
