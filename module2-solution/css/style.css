@@ -7,21 +7,25 @@ body {
 }
 .heading{
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 28px;
 }
 .container {
     padding:0 40px;
 }
 .menu-item{
     position: relative;
-    border: 2px solid #141414;
+    border: 1px solid #141414;
     background-color: #999999;
     margin-bottom: 20px;
 } 
 .caption{
+    font-size: 20px;
     position: absolute;
     top: 0;
     right: 0;
-    border: 2px solid black;
+    border: 1px solid black;
     margin: 0;
     width: 30%;
     border-right: 0;
@@ -40,6 +44,7 @@ body {
 }  
 .description{
     margin: 34px 10px 4px 10px;
+    font-size: 16px;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
