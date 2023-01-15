@@ -1,5 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .heading{
     text-align: center;
@@ -36,3 +40,23 @@ body {
     margin: 34px 10px 4px 10px;
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+    .menu-box {
+        float:left;
+    }  
+    .menu-box-1 {
+        width: 50%;
+        padding-right: 8px;
+    }
+    .menu-box-2 {
+        width: 50%;
+        padding-left: 8px;
+    }
+}
+@media (min-width: 992px) {
+    .menu-box {
+        float: left;
+        width: 33.3%;
+        padding: 0 18px;
+    }
+}
