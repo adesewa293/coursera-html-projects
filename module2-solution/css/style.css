@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.caption{
+    border: 2px solid black;
+    float: right;
+    margin: 0;
+    width: 30%;
+    border-right: 0;
+    border-top: 0;
+}
+.caption-1 {
+    background-color: #d59998;
+}
+.caption-2 {
+    background-color: #c14643;
+    color: white;
+}
+.caption-3 {
+    background-color: #e5d198;
+}
+.menu-item{
+    border: 2px solid #141414;
+    background-color: #999999;
+    margin-bottom: 20px;
+}   
+.description{
+    clear: right;
+}
+
