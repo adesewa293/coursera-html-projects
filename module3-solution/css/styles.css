@@ -1,0 +1,39 @@
+#header-nav {
+    background-color: gray;
+    border-radius: 0;
+    border: 30px;
+    font-size: 45px;
+}
+.ourmenu {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.chicken-header {
+    background-color: gray;
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 0;
+    margin-bottom: 5px;
+}
+.whole-div {
+    background-color: gray;
+    height: 80vh;
+    padding: 5px;
+    overflow: scroll;
+}
+/* @media (min-width: 992px) and (max-width: 1199px) {
+.navbar-toggler 
+} */
+.menu-list li {
+    font-size: 30px;
+    text-decoration: none;
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+}
+.menu-list li a {
+    text-decoration: none;
+    color: black;
+}
